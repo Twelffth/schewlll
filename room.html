@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cat</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@279&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<br>
+		<button id="logout" style="width: 10%;
+			height: 40px;
+			border-radius: 5px;
+			background-color: #2a3033;
+			color: #8bb16b;
+			border-color: #2a3033;
+			border-style: dotted;
+			size: 35px;
+			font-size: 22px;
+			font-family: 'Amatic SC', cursive;
+			font-weight: 900;
+			letter-spacing: 2px;">
+			Logout</button>
+		<center>
+			<h1 class="header">
+				Your Cat Box
+				<sup>
+					<img
+						src="https://lh3.googleusercontent.com/pw/AM-JKLVsrvw_q_CkzAh0Jfne1Lsm9DIJBgE4-HDYuY3ZfN05QDZo9oUjYe10VrnHnjsqsA1WyYbZIK3Cvt5OTUqx0k8aBaZyLAGVV6VA8bdOdyLdZDh43YNX2imxoMqkORhsYCYAw5lJuSt-ECMvDrSyRxz_=s896-no?authuser=0">
+				</sup>
+			</h1>
+			<br>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div" id="div">
+				<br>
+				<h3 class="color_white" id="welcome_user_name" style="   font-family: 'Azeret Mono', monospace;
+		font-size: 23px;
+		font-weight: bold;
+		color: #598f2c;"></h3>
+				<div class="form-group input_div_room_page">
+					<label id="boxxy">Join Any Box You Feel Makes You Confy</label>
+					<br>
+					<br>
+					<label id="uber">Or you can make one~</label>
+					<br>
+					<br>
+					<input type="text" id="room_name" class="form-control" placeholder="#Box Name" style="   font-family: 'Annie Use Your Telescope', cursive;
+
+						font-size: 25px;
+						color: #999999;">
+				</div>
+
+				<button class="btn btn-link" onclick="addroom()" style="
+						margin-top: 10px;
+						width: 30%;
+						height: 45px;
+						border-radius: 5px;
+						background-color: #2a3033;
+						color: #8bb16b;
+						border-color: #2a3033;
+						border-style: dotted;
+						size: 40px;
+						font-size: 25px;
+						font-family: 'Amatic SC', cursive;
+						font-weight: 900;
+						letter-spacing: 5px;">#Add A Box</button>
+				<br>
+				<br>
+			</div>
+			<h3 class="color_white" style="color: #2a3033;
+			font-family: 'Josefin Slab', serif;
+			letter-spacing: 1px;
+			font-weight: 900;
+			font-size: 30px;
+			">#BoxesHereAndThere</h3>
+			<div id="output"></div>
+		</center>
+	</div>
+	<script src="room.js"></script>
+</body>
+
+</html>
